@@ -47,13 +47,13 @@ Upload() {
 MakeZip() {
     Any=$MainPath/../AnyKernel3
     if [ ! -d $Any ];then
-	git clone https://github.com/TeraaBytee/AnyKernel3 -b r-oss $Any
+	git clone https://github.com/ImperfectNiBos/AnyKernel3 $Any
     else
 	cd $Any
 	git reset --hard
-	git fetch origin r-oss
-	git checkout r-oss
-	git reset --hard origin/r-oss
+	git fetch origin master
+	git checkout master
+	git reset --hard origin/master
     fi
     cd $Any
     cp -af $MainPath/out/arch/arm64/boot/Image.gz-dtb $Any
