@@ -9,8 +9,8 @@ gcc_Path=$MainPath/../gcc
 Clang_Path=$MainPath/../clang
 DTC_Path=$MainPath/../DragonTC
 LOG=$MainPath/error.log
-USER="Imperfect"
-HOST="GengKapak"
+USER="PIKACHU"
+HOST="PIKACHU"
 
 # Message
 CAP1="
