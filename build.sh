@@ -30,7 +30,7 @@ Build Fail in : $((DIFF / 60)) minute(s) and $((DIFF % 60)) second(s)
 MakeZip() {
     Any=$MainPath/../AnyKernel3
     if [ ! -d $Any ];then
-	    git clone https://github.com/ImperfectNiBos/AnyKernel3 -b master $Any
+	    git clone https://github.com/Atanu81237/Anykernel3 -b master $Any
     else
         cd $Any
         git reset --hard
